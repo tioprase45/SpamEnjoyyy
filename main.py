@@ -331,8 +331,8 @@ def main():
     print(f"""{kuning}Author      : {hijau}Tioprase45
 {kuning}Github      : {merah}github.com/tioprase45
 {kuning}Instagram   : {biru}instagram.com/tioprase.45
-{merah}Contoh : 08xxxxxxxxxx
-{biru}V0.0.0.6""")
+{kuning}Contoh      : {merah}08xxxxxxxxxx
+{kuning}Version     : {biru}0.0.0.6""")
     # Contoh : 089508226367
     print(nomor := input(f"{hijau}Masukkan Nomor Target: {putih}")) # Walrus Operator untuk inputan Nomor Target
     start(nomor,0) # Memulai Tools

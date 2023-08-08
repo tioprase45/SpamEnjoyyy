@@ -312,19 +312,19 @@ def jam(nomor): # Don't Remove Code !!!!
 
 def start(nomor,x): # Def Untuk Start Tools
     if x == 0: # Flag ketika pertama kali masuk kedalam Fungsi start()
-        os.system("cls") # Clear Terminal
+        os.system("clear") # Clear Terminal
         autoketik(f"{merah}Infinite Loop Spam to {putih}{nomor} {merah}is {hijau}Ready!{hijau}") # Flag dimana program berjalan
         jam(nomor)
     else:
         print("")
         autoketik("--reboot wait 20 second--")
         time.sleep(15) # Tunda 20 detik
-        os.system("cls") # Clear Terminal
+        os.system("clear") # Clear Terminal
         autoketik(f"{merah}Mengulang Spam ke Nomor : {nomor}.....{hijau}") # Flag dimana program berjalan
         jam(nomor)
         
 def main():
-    os.system("cls") # Clear Terminal agar CMD berwarna
+    os.system("clear") # Clear Terminal agar CMD berwarna
     autoketik(f"Selamat datang di {merah}MySpamBot")
     print(f"""{kuning}Author      : {hijau}Tioprase45
 {kuning}Github      : {merah}github.com/tioprase45

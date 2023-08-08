@@ -314,7 +314,7 @@ def jam(nomor): # Don't Remove Code !!!!
 
 def start(nomor,x): # Def Untuk Start Tools
     if x == 0: # Flag ketika pertama kali masuk kedalam Fungsi start()
-        os.system("clear") # Clear Terminal
+        #os.system("clear") # Clear Terminal
         autoketik(f"{merah}Infinite Loop Spam to {putih}{nomor} {merah}is {hijau}Ready!{merah}ENJOYYY!!!{hijau} ") # Flag dimana program berjalan
         jam(nomor)
     else:
@@ -332,7 +332,7 @@ def main():
 {kuning}Github      : {merah}github.com/tioprase45
 {kuning}Instagram   : {biru}instagram.com/tioprase.45
 {merah}Contoh : 08xxxxxxxxxx
-{biru}V0.0.0.5""")
+{biru}V0.0.0.6""")
     # Contoh : 089508226367
     print(nomor := input(f"{hijau}Masukkan Nomor Target: {putih}")) # Walrus Operator untuk inputan Nomor Target
     start(nomor,0) # Memulai Tools

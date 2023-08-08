@@ -47,18 +47,18 @@ def countdown(time_sec):
         keterangan_tanggal = time.strftime("%d",waktu)
         keterangan_bulan = time.strftime("%B",waktu)
         bulan_bulan = {
-        "January"    : 'Januari',
-        "February"   : "Februari",
-        "March"      : "Maret",
-        "April"      : "April",
-        "May"        : "Mei",
-        "June"       : "Juni",
-        "July"       : "Juli",
-        "August"     : "Agustus",
-        "September"  : "September",
-        "October"    : "Oktober",
-        "November"   : "November",
-        "December"   : "Desember"
+        "January"    : '01',
+        "February"   : "02",
+        "March"      : "03",
+        "April"      : "04",
+        "May"        : "05",
+        "June"       : "06",
+        "July"       : "07",
+        "August"     : "08",
+        "September"  : "09",
+        "October"    : "10",
+        "November"   : "11",
+        "December"   : "12"
         } # Mengubah keterangan bulan menjadi bahasa Indonesia.
         bulan = bulan_bulan.get(keterangan_bulan)
         
@@ -76,7 +76,7 @@ def countdown(time_sec):
         } # Mengubah keterangan hari menjadi bahasa Indonesia.
         hari = hari_hari.get(keterangan_hari)
         
-        print(f"{timeformat} | {biru}{hari}, {keterangan_tanggal} {bulan} {keterangan_tahun} | {kuning}Waktu {keterangan_jam}",end='\r')
+        print(f"{timeformat} | {biru}{hari},{keterangan_tanggal}/{bulan}/{keterangan_tahun}|{kuning}Waktu {keterangan_jam}",end='\r')
         time.sleep(1)
         time_sec -= 1
 
@@ -331,7 +331,7 @@ def main():
 {kuning}Github      : {merah}github.com/tioprase45
 {kuning}Instagram   : {biru}instagram.com/tioprase.45
 {merah}Contoh : 08xxxxxxxxxx
-{biru}V0.0.0.4""")
+{biru}V0.0.0.5""")
     # Contoh : 089508226367
     print(nomor := input(f"{hijau}Masukkan Nomor Target: {putih}")) # Walrus Operator untuk inputan Nomor Target
     start(nomor,0) # Memulai Tools

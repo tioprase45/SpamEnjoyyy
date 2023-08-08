@@ -330,7 +330,7 @@ def main():
 {kuning}Github      : {merah}github.com/tioprase45
 {kuning}Instagram   : {biru}instagram.com/tioprase.45
 {merah}Contoh : 08xxxxxxxxxx
-{biru}V0.0.0.2""")
+{biru}V0.0.0.3""")
     # Contoh : 089508226367
     print(nomor := input(f"{hijau}Masukkan Nomor Target: {putih}")) # Walrus Operator untuk inputan Nomor Target
     start(nomor,0) # Memulai Tools

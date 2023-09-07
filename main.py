@@ -315,7 +315,7 @@ def jam(nomor): # Don't Remove Code !!!!
 def start(nomor,x): # Def Untuk Start Tools
     if x == 0: # Flag ketika pertama kali masuk kedalam Fungsi start()
         #os.system("clear") # Clear Terminal
-        autoketik(f"{merah}Infinite Loop Spam to {putih}{nomor} {merah}is {hijau}Ready!{merah}ENJOYYY!!!{hijau} ") # Flag dimana program berjalan
+        autoketik(f"{merah}Infinite Loop Spam to {putih}{nomor} {merah}is {merah}NOT READY!!!{merah} ENJOYYY!!!{hijau} ") # Flag dimana program berjalan
         jam(nomor)
     else:
         print("")
